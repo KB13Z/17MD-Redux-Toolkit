@@ -1,0 +1,86 @@
+.animalCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: darkgray;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.editForm {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.cardLabel {
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    align-self: start;
+    margin-bottom: 0.3rem;
+}
+
+.animalSelection {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.animalNameChanging {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.imageCard {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+.cardBottomPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.animalName {
+    display: flex;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.cardButton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: fit-content;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+        transition: 0.4s;
+    }
+}
+
+.confirmationQuestion {
+    font-size: 16px;
+    color: red;
+    font-style: italic;
+}
